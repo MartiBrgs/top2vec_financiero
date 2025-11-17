@@ -1,0 +1,134 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Archivos de datos grandes
+# Descomenta si NO usas Git LFS
+# data/noticias.csv
+# data/embeddings_precalculados.npz
+data/*.npz
+data/*.csv
+
+# Excepciones: permitir archivos de ejemplo pequeños
+!data/*_sample.csv
+!data/README_DATOS.md
+
+# Modelos entrenados (archivos generados)
+modelos/*/
+modelos/*/*.model
+modelos/*/*.pkl
+modelos/*/*.bin
+modelos/*/*.joblib
+
+# Excepciones: permitir README
+!modelos/README_MODELOS.md
+
+# Resultados generados
+resultados/*.xlsx
+resultados/*.csv
+resultados/*.json
+resultados/temporal_analysis/
+resultados/temporal_analysis_reduced/
+
+# Excepciones: permitir README
+!resultados/README_RESULTADOS.md
+
+# Archivos temporales
+*.log
+temp_*.html
+temp_*.png
+*.tmp
+*.temp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archivos de backup
+*.bak
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+config.local.py
+
+# Archivos de cache
+*.cache
+.cache/
+
+# Archivos de Word temporales
+~$*.docx
+~$*.xlsx
+
+# Archivos de sistema Windows
+$RECYCLE.BIN/
+Desktop.ini
+
+# Archivos de sistema macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
